@@ -1,5 +1,5 @@
 {
-    "name": "chatbox-inc/laravel_webhook",
+    "name": "chatbox-inc/laravel-webhook",
     "authors": [
         {
             "name": "mikakane",
@@ -19,10 +19,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Barryvdh\\Debugbar\\ServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
             }
         }
     },
