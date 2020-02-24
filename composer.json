@@ -11,10 +11,7 @@
         "psr-4": {
             "Chatbox\\Laravel\\Webhook\\": "./src"
         },
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ]
+        "classmap": []
     },
     "extra": {
         "laravel": {
