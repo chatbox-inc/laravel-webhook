@@ -5,7 +5,7 @@ use Chatbox\Laravel\Webhook\WebhookEvent;
 
 class Webhook {
 
-    public function __invoke()
+    public function handle()
     {
         event(new WebhookEvent(request()));
         return [];
